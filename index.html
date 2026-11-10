@@ -1,61 +1,87 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1">
-  <title>Research & Engineering Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dilanka Perera — research and engineering portfolio covering human-centred AI, intelligent systems, and scientific computing.">
+  <title>Dilanka Perera | Research & Engineering</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 850px;
-      margin: 60px auto;
-      padding: 0 24px;
-      line-height: 1.7;
-      color: #202936;
-    }
-    h1, h2 { color: #14263d; }
-    section { margin-top: 48px; }
-    a { color: #2563eb; }
+    :root { --paper:#fcfbf8; --ink:#242b34; --muted:#606a73; --accent:#294b67; --line:#dcdedc; }
+    * {box-sizing:border-box}
+    html {scroll-behavior:smooth}
+    body {margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    .wrap {max-width:920px;margin:auto;padding:0 30px}
+    header {border-bottom:1px solid var(--line)}
+    .top {display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 0}
+    .brand {font-family:Georgia,"Times New Roman",serif;font-size:19px;font-weight:bold;color:var(--ink);text-decoration:none}
+    nav {display:flex;gap:19px;flex-wrap:wrap} nav a {font-size:13px;color:var(--muted);text-decoration:none}
+    a {color:var(--accent);text-underline-offset:3px} a:hover {text-decoration:underline}
+    main {padding:66px 0 90px}
+    h1,h2,h3 {font-family:Georgia,"Times New Roman",serif;font-weight:normal;line-height:1.25}
+    h1 {font-size:clamp(38px,6vw,58px);margin:0 0 13px}
+    .eyebrow {font-size:12px;text-transform:uppercase;letter-spacing:.14em;color:var(--accent);font-weight:600}
+    .subtitle {font-size:19px;color:var(--muted);max-width:710px;margin:0 0 22px}
+    .links {display:flex;gap:20px;flex-wrap:wrap;font-size:14px}
+    section {padding-top:56px;margin-top:36px;border-top:1px solid var(--line)}
+    h2 {font-size:30px;margin:0 0 20px} h3 {font-size:21px;margin:0 0 8px}
+    p {margin:0 0 14px} .intro {max-width:740px}
+    .entry {padding:20px 0;border-bottom:1px solid var(--line)} .entry:last-child {border-bottom:0}
+    .meta {font-size:13px;color:var(--muted);margin-bottom:8px}
+    .tag {display:inline-block;border:1px solid var(--line);border-radius:3px;padding:2px 8px;font-size:12px;color:var(--muted);margin:5px 6px 0 0}
+    .small {font-size:14px;color:var(--muted)}
+    footer {border-top:1px solid var(--line);padding:24px 0 40px;color:var(--muted);font-size:13px}
+    @media(max-width:620px){.top{align-items:flex-start;flex-direction:column;gap:8px}nav{gap:13px}main{padding-top:44px}section{padding-top:40px;margin-top:28px}}
   </style>
 </head>
 <body>
-  <h1>Research & Engineering Portfolio</h1>
-
-  <p>
-    Computer Science | AI Systems |
-    Scientific Computing | Advanced Engineering
-  </p>
-
-  <section>
-    <h2>About</h2>
-    <p>
-      Computer Science graduate and former
-      Senior Software Engineer with experience
-      in enterprise systems and AI applications.
-      Interested in research, scientific computing,
-      and advanced engineering.
-    </p>
-  </section>
-
-  <section>
-    <h2>Research</h2>
-    <p>
-      AI-Generated Content, Deepfakes,
-      Perceived Risk and Consumer Trust.
-    </p>
-  </section>
-
-  <section>
-    <h2>Projects</h2>
-    <p>Agentic AI Backend</p>
-    <p>FlightLab - Aircraft Dynamics Simulator
-       (Planned)</p>
-  </section>
-
-  <section>
-    <h2>Contact</h2>
-  </section>
+  <header><div class="wrap top">
+    <a class="brand" href="#home">Dilanka Perera</a>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#research">Research</a><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#contact">Contact</a>
+    </nav>
+  </div></header>
+  <main class="wrap" id="home">
+    <div class="eyebrow">Research &amp; Engineering</div>
+    <h1>Dilanka Perera</h1>
+    <p class="subtitle">Computer science graduate exploring human-centred AI, intelligent systems, and scientific computing.</p>
+    <div class="links"><a href="https://github.com/dilankaperera98" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="#research">Research</a><a href="#contact">Contact</a></div>
+    <section id="about"><h2>About</h2><div class="intro">
+      <p>I am a computer science graduate and former Senior Software Engineer at London Stock Exchange Group (LSEG), with experience developing and supporting complex enterprise systems. I also hold an MBA, during which I conducted empirical research into AI-generated content, deepfakes, perceived risk, and consumer trust.</p>
+      <p>My interests include human-centred and trustworthy AI, intelligent systems, scientific computing, and advanced engineering. I am developing my research and computational modelling skills with the long-term goal of contributing to interdisciplinary R&amp;D.</p>
+    </div></section>
+    <section id="research"><h2>Research</h2>
+      <article class="entry"><div class="meta">MBA Dissertation · University of Wolverhampton · 2026</div>
+        <h3>Impact of AI-Generated Content and Deepfakes on Consumer Trust in Sri Lanka: The Mediating Role of Perceived Risk</h3>
+        <p>Investigated the relationship between exposure to AI-generated content and consumer trust in Sri Lankan social commerce, using survey data (N = 115) and mediation analysis. Findings indicated that perceived risk mediated the relationship between exposure and trust in the study sample.</p>
+        <span class="tag">Human–AI Interaction</span><span class="tag">Consumer Trust</span><span class="tag">Quantitative Research</span>
+        <p class="small" style="margin-top:12px">Dissertation project; not presented as a peer-reviewed publication.</p>
+      </article>
+    </section>
+    <section id="projects"><h2>Selected Projects</h2>
+      <article class="entry"><div class="meta">Independent Engineering Project · Python / FastAPI</div>
+        <h3>Agentic AI Backend</h3>
+        <p>Built an AI application backend integrating language-model tool use, structured-output validation, MCP tools, and retrieval-augmented generation. Implemented testing, observability, and safeguards for tool execution.</p>
+        <span class="tag">Python</span><span class="tag">LLM Tool Use</span><span class="tag">MCP</span><span class="tag">RAG</span>
+      </article>
+      <article class="entry"><div class="meta">Planned Scientific Computing Project</div>
+        <h3>FlightLab — Aircraft Flight Dynamics Simulation</h3>
+        <p>Planned exploration of longitudinal aircraft dynamics, numerical integration, stability, and control. Results and source code will be added as development progresses.</p>
+        <span class="tag">Flight Dynamics</span><span class="tag">Numerical Methods</span><span class="tag">Planned</span>
+      </article>
+    </section>
+    <section id="experience"><h2>Experience</h2>
+      <article class="entry"><div class="meta">London Stock Exchange Group · 2021–2025</div>
+        <h3>Software Engineer → Senior Software Engineer</h3>
+        <p>Worked on enterprise systems, integration, automation, CI/CD, and production support, including complex trading infrastructure changes. Collaborated across engineering, quality assurance, and business teams.</p>
+        <p class="small">Professional experience summarized without proprietary implementation details.</p>
+      </article>
+    </section>
+    <section id="education"><h2>Education</h2>
+      <article class="entry"><h3>Master of Business Administration (MBA)</h3><div class="meta">University of Wolverhampton · 2026 · Merit</div></article>
+      <article class="entry"><h3>BSc in Computer Science</h3><div class="meta">University of Colombo School of Computing · 2022</div></article>
+    </section>
+    <section id="contact"><h2>Contact</h2><p>For research discussions and professional opportunities, connect with me on <a href="https://github.com/dilankaperera98" target="_blank" rel="noopener noreferrer">GitHub</a>. http://linkedin.com/in/dilanka-perera</p></section>
+  </main>
+  <footer><div class="wrap">© 2026 Dilanka Perera · Research &amp; Engineering Portfolio</div></footer>
 </body>
 </html>
